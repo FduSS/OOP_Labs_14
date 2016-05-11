@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo -e "make sure your working directory is /test before proceeding/n"
+
 echo "OOP Lab 3 Grader by Zhongyi Tong"
 # check gcc presence
 if hash g++ 2>/dev/null; then
